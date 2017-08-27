@@ -1,0 +1,12 @@
+.wrapper {
+/*    margin: 0px, auto;*/
+/*    height: 100%;*/
+/*    background: black;*/
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 2px;
+}

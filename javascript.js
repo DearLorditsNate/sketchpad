@@ -1,4 +1,13 @@
 $(document).ready(function(){
-//    var $newdiv = $("<div class='grid'>text</div>");
-    $(".wrapper").append("<div class='grid'>test</div>");
+    for (i = 1; i < 257; i++) {
+        if (i % 16 === 0) {
+            $("#grid").append('<div class="box"></div><br>');
+        } else {
+            $("#grid").append('<div class="box"></div>');
+        }
+    }
+    
+    $(".box").mouseenter(function() {
+        $(this).addClass("hover");
+    });
 });
